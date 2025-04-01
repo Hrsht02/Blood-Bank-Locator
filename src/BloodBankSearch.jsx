@@ -39,7 +39,7 @@ const BloodBankSearch = () => {
 
   return (
     <div className={`bloodbank-container ${query ? "borderless" : ""}`}>
-      <h2>Connect With Your Blood Bank</h2>
+      <h1>Connect With Your Blood Bank</h1>
       <div className="search-box">
         <input
           type="text"
